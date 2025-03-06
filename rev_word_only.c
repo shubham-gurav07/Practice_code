@@ -25,4 +25,6 @@ int main()
     printf("After reversing the perticuler word in string is : \n");
     printf("%s\n",s);
 
+    //de-allocating the DMA
+    free(s);
 }
